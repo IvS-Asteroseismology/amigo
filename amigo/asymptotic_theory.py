@@ -17,7 +17,7 @@ import sys
 from itertools import product
 from multiprocessing import Pool
 
-from amigo.centrifugal_TAR import hough
+from .centrifugal_TAR import hough
 
 class gravity_modes(object):
     """ 
